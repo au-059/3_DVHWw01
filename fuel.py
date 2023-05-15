@@ -2,7 +2,7 @@ def main():
         while True:
                 try:
                     fraction = str(input("Fraction: "))
-                    percent = int(convert(fraction))
+                    percent = round(convert(fraction))
                     if percent <= 100:
                           break
                 except (ValueError, ZeroDivisionError):
