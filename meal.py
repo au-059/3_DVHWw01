@@ -14,5 +14,4 @@ def convert(time):
         float_mins = float(mins) / 60
         return float(hrs) + float_mins
 
-if __name__ == "__main__":
-        main()
+main()
